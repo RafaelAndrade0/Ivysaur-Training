@@ -13,10 +13,12 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#"
+      <a class="nav-item nav-link active" [routerLink]="['/']"
         >Home <span class="sr-only">(current)</span></a
       >
-      <a class="nav-item nav-link disabled" href="#">About</a>
+      <a class="nav-item nav-link" [routerLink]="['/basic-training']"
+        >Basic Training</a
+      >
     </div>
   </div>
 </nav>
