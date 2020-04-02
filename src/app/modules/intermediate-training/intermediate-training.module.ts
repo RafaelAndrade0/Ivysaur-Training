@@ -1,15 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { IntermediateTrainingRoutingModule } from './intermediate-training-routing.module';
-import { IntermediateTrainingComponent } from './intermediate-training.component';
-
+import { IntermediateTrainingRoutingModule } from "./intermediate-training-routing.module";
+import { IntermediateTrainingComponent } from "./page/intermediate-training.component";
 
 @NgModule({
   declarations: [IntermediateTrainingComponent],
-  imports: [
-    CommonModule,
-    IntermediateTrainingRoutingModule
-  ]
+  imports: [CommonModule, IntermediateTrainingRoutingModule]
 })
-export class IntermediateTrainingModule { }
+export class IntermediateTrainingModule {}

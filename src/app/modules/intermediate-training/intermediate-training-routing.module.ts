@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
 
-import { IntermediateTrainingComponent } from './intermediate-training.component';
+import { IntermediateTrainingComponent } from "./page/intermediate-training.component";
 
-const routes: Routes = [{ path: '', component: IntermediateTrainingComponent }];
+const routes: Routes = [{ path: "", component: IntermediateTrainingComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class IntermediateTrainingRoutingModule { }
+export class IntermediateTrainingRoutingModule {}
