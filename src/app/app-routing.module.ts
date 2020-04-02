@@ -15,6 +15,11 @@ const routes: Routes = [
       import(
         "./modules/intermediate-training/intermediate-training.module"
       ).then(m => m.IntermediateTrainingModule)
+  },
+  {
+    path: "",
+    loadChildren: () =>
+      import("./modules/home/home.module").then(m => m.HomeModule)
   }
 ];
 
